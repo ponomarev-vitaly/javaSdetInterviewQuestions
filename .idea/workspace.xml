@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9922565b-4b8e-4bab-92de-a80d67d577b4" name="Changes" comment="I created new Boat class and added new variables name, length. I added toString method in order to change the car to boat in the output.">
-      <change beforePath="$PROJECT_DIR$/src/VehicleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VehicleApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="9922565b-4b8e-4bab-92de-a80d67d577b4" name="Changes" comment="I added addBoat method in the VehicleApp class. I ran the code and everything worked worked smooth." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679697692156</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="I added addBoat method in the VehicleApp class. I ran the code and everything worked worked smooth.">
+      <created>1679698377636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679698377636</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -105,6 +110,7 @@
     <MESSAGE value="I modified the code: made a private variable VIN in the Vehicle class, deleted VIN variable in the Car class, added removeVehicle method, checked this method." />
     <MESSAGE value="I created new Plane class and added new variables engineType, numberOfWings. I added toString method in order to change the car to plane in the output." />
     <MESSAGE value="I created new Boat class and added new variables name, length. I added toString method in order to change the car to boat in the output." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created new Boat class and added new variables name, length. I added toString method in order to change the car to boat in the output." />
+    <MESSAGE value="I added addBoat method in the VehicleApp class. I ran the code and everything worked worked smooth." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added addBoat method in the VehicleApp class. I ran the code and everything worked worked smooth." />
   </component>
 </project>
