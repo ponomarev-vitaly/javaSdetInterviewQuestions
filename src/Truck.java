@@ -10,8 +10,8 @@ public class Truck extends Car{
     }
 
 
-    public Truck(String brand, String model, int NOW, int NOP, String color, boolean isElectric, String VIN, int load) {
-        super(brand, model, NOW, NOP, color, isElectric, VIN);
+    public Truck(String VIN, String brand, String model, int NOW, int NOP, String color, boolean isElectric, int load) {
+        super(VIN, brand, model, NOW, NOP, color, isElectric);
         this.load = load;
     }
 

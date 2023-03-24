@@ -1,4 +1,5 @@
 public class Vehicle {
+    private String VIN;
     private String brand;
     private String model;
     private int numOfWheels;
@@ -45,7 +46,16 @@ public class Vehicle {
         this.color = color;
     }
 
-    public Vehicle(String brand, String model, int NOW, int NOP, String color){
+    public String getVIN() {
+        return VIN;
+    }
+
+    public void setVIN(String VIN) {
+        this.VIN = VIN;
+    }
+
+    public Vehicle(String VIN, String brand, String model, int NOW, int NOP, String color){
+        this.VIN = VIN;
         this.brand = brand;
         this.model = model;
         this.numOfWheels = NOW;
@@ -59,6 +69,6 @@ public class Vehicle {
 
     public String toString(){
         return brand + " " + model + " ( " + color + " ) has " +
-                numOfPassengers + " passenger capacity. It has " + numOfWheels + " wheels.";
+                numOfPassengers + " passenger capacity. It has " + numOfWheels + " wheels. " + "The VIN number of the car is " + VIN + ". ";
     }
 }

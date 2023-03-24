@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class VehicleApp {
     static Scanner scan = new Scanner(System.in);
     static List<Vehicle> vehicles = new ArrayList<>(); // The name of the constructor in this line is after equals sign.
+
+    static {
+        Vehicle vehicle = new Vehicle("12345678", "Ford", "Mustang", 4, 4, "black");
+        vehicles.add(vehicle);
+    }
     public static void main(String[] args) {
         // scan.next(); // To call the Scanner object class from the main method there's another option: create an object, call the method.
         int option = -1;
@@ -17,6 +22,9 @@ public class VehicleApp {
                     break;
                 case 2:
                     addTruck();
+                    break;
+                case 4:
+                    addPlane();
                     break;
                 case 5:
                     listAll();
@@ -66,7 +74,7 @@ public class VehicleApp {
         System.out.print("Enter the VIN ...> ");
         String VIN = scan.next();
 
-        Car temp = new Car(brand, model, NOW, NOP, color, electric, VIN);
+        Vehicle temp = new Vehicle(VIN, brand, model, NOW, NOP, color);
         vehicles.add(temp);
     }
 
@@ -90,7 +98,29 @@ public class VehicleApp {
         System.out.println("Enter the Load ...> ");
         int load = scan.nextInt();
 
-        Truck temp = new Truck(brand, model, NOW, NOP, color, electric, VIN, load);
+        Vehicle temp = new Vehicle(VIN, brand, model, NOW, NOP, color);
+        vehicles.add(temp);
+    }
+
+    public static void addPlane(){
+        System.out.print("Enter the brand ...> ");
+        String brand = scan.next();
+        System.out.print("Enter the model ...> ");
+        String model = scan.next();
+        System.out.print("Enter number of wheels ...> ");
+        int NOW = scan.nextInt();
+        System.out.print("Passengers cap. ...> ");
+        int NOP = scan.nextInt();
+        System.out.print("Enter the color ...> ");
+        String color = scan.next();
+        System.out.print("Enter the VIN ...> ");
+        String VIN = scan.next();
+        System.out.println("Enter the engine type ...> ");
+        String engineType = scan.next();
+        System.out.println("Enter number of wings ...> ");
+        int numberOfWings = scan.nextInt();
+
+        Vehicle temp = new Plane(VIN, brand, model, NOW, NOP, color, engineType, numberOfWings);
         vehicles.add(temp);
     }
 
@@ -103,33 +133,23 @@ public class VehicleApp {
 
     public static boolean removeVehicle(){ // We should apply to the unique number - like VIN.
         boolean flag = false;
-        System.out.println("Please enter the brand you want to delete. ");
-        String brand01 = scan.next();
-        Vehicle vch = new Vehicle();
-//        if (brand01.equals(vch.getBrand())){
-//            System.out.printf(vch.getBrand());
-//            vehicles.remove(brand01);
-//            flag = true;
-//        }
-        for (Vehicle w:vehicles // w - vehicles is listed one by one.
-        ) {
-//            w.getBrand().equals(brand01);
-            if (w.getBrand().equals(brand01)){
-                System.out.printf(vch.getBrand());
-                vehicles.remove(brand01);
+        for (int i = 0; i < vehicles.size(); i++) {
+            System.out.println(vehicles.get(i).getVIN()); // We display all the VIN numbers we have.
+            // i is an object of vehicles.
+        }
+            System.out.println("Please enter the VIN number you want to delete. ");
+            String vinRemove = scan.next();
+        for (int i = 0; i < vehicles.size(); i++) {
+            System.out.println(vehicles.get(i).getVIN().equals(vinRemove));
+            if(vehicles.get(i).getVIN().equals(vinRemove)){
+                System.out.println(vehicles.get(i)); // User will see the data he wants remove.
+                System.out.println("This " + vehicles.get(i).getBrand() + " " + vehicles.get(i).getModel() + " car was deleted!");
+                vehicles.remove(i);
                 flag = true;
             }
         }
-//        System.out.println("Enter the VIN number you want to remove: ");
-//        String numVIN = scan.next();
-//        Car car01 = new Car();
-//        numVIN.equals(car01.getVIN());
-//        for(int i = 0; i < vehicles.size(); i++){
-//
-//        }
-//        if(numVIN.equals(vehicles.)){
-//
-//        }
+
+
         return flag;
     }
 }
