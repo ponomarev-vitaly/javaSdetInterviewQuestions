@@ -23,6 +23,9 @@ public class VehicleApp {
                 case 2:
                     addTruck();
                     break;
+                case 3:
+                    addBoat();
+                    break;
                 case 4:
                     addPlane();
                     break;
@@ -95,10 +98,32 @@ public class VehicleApp {
         boolean electric = gas.compareToIgnoreCase("E") == 0 ? true : false;
         System.out.print("Enter the VIN ...> ");
         String VIN = scan.next();
-        System.out.println("Enter the Load ...> ");
+        System.out.print("Enter the Load ...> ");
         int load = scan.nextInt();
 
         Vehicle temp = new Vehicle(VIN, brand, model, NOW, NOP, color);
+        vehicles.add(temp);
+    }
+
+    public static void addBoat(){
+        System.out.print("Enter the brand ...> ");
+        String brand = scan.next();
+        System.out.print("Enter the model ...> ");
+        String model = scan.next();
+        System.out.print("Enter number of wheels ...> ");
+        int NOW = scan.nextInt();
+        System.out.print("Passengers cap. ...> ");
+        int NOP = scan.nextInt();
+        System.out.print("Enter the color ...> ");
+        String color = scan.next();
+        System.out.print("Enter the VIN ...> ");
+        String VIN = scan.next();
+        System.out.print("Enter the name of the boat ...> ");
+        String name = scan.next();
+        System.out.print("Enter the length of the boat ...> ");
+        float length = scan.nextFloat();
+
+        Vehicle temp = new Boat(VIN, brand, model, NOW, NOP, color, name, length);
         vehicles.add(temp);
     }
 
@@ -115,9 +140,9 @@ public class VehicleApp {
         String color = scan.next();
         System.out.print("Enter the VIN ...> ");
         String VIN = scan.next();
-        System.out.println("Enter the engine type ...> ");
+        System.out.print("Enter the engine type ...> ");
         String engineType = scan.next();
-        System.out.println("Enter number of wings ...> ");
+        System.out.print("Enter number of wings ...> ");
         int numberOfWings = scan.nextInt();
 
         Vehicle temp = new Plane(VIN, brand, model, NOW, NOP, color, engineType, numberOfWings);
