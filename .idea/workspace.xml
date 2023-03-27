@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9922565b-4b8e-4bab-92de-a80d67d577b4" name="Changes" comment="If flag is false, If body runs. If we use ! mark before the variable, the value of it going to be that we initialise. If flag is true, this code runs. If flag1 is false, If block runs. != we use only for integers, but for other data types we use !">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VehicleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VehicleApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="9922565b-4b8e-4bab-92de-a80d67d577b4" name="Changes" comment="I added if statement to check whether VIN number is in the database." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679950507945</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="I added if statement to check whether VIN number is in the database.">
+      <created>1679950561141</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679950561141</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +141,7 @@
     <MESSAGE value="I created new Boat class and added new variables name, length. I added toString method in order to change the car to boat in the output." />
     <MESSAGE value="I added addBoat method in the VehicleApp class. I ran the code and everything worked worked smooth." />
     <MESSAGE value="If flag is false, If body runs. If we use ! mark before the variable, the value of it going to be that we initialise. If flag is true, this code runs. If flag1 is false, If block runs. != we use only for integers, but for other data types we use !" />
-    <option name="LAST_COMMIT_MESSAGE" value="If flag is false, If body runs. If we use ! mark before the variable, the value of it going to be that we initialise. If flag is true, this code runs. If flag1 is false, If block runs. != we use only for integers, but for other data types we use !" />
+    <MESSAGE value="I added if statement to check whether VIN number is in the database." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added if statement to check whether VIN number is in the database." />
   </component>
 </project>
