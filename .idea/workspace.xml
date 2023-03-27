@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9922565b-4b8e-4bab-92de-a80d67d577b4" name="Changes" comment="I added addBoat method in the VehicleApp class. I ran the code and everything worked worked smooth." />
+    <list default="true" id="9922565b-4b8e-4bab-92de-a80d67d577b4" name="Changes" comment="If flag is false, If body runs. If we use ! mark before the variable, the value of it going to be that we initialise. If flag is true, this code runs. If flag1 is false, If block runs. != we use only for integers, but for other data types we use !">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VehicleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VehicleApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,14 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Java/Vehicle Application&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.IfStatementPractice">
+    <configuration name="IfStatementPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IfStatementPractice" />
+      <module name="Vehicle Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VehicleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VehicleApp" />
       <module name="Vehicle Application" />
@@ -47,6 +57,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IfStatementPractice" />
         <item itemvalue="Application.VehicleApp" />
       </list>
     </recent_temporary>
@@ -102,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679698377636</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="I added addBoat method in the VehicleApp class. I ran the code and everything worked worked smooth.">
+      <created>1679698514606</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679698514606</updated>
+    </task>
+    <task id="LOCAL-00008" summary="If flag is false, If body runs. If we use ! mark before the variable, the value of it going to be that we initialise. If flag is true, this code runs. If flag1 is false, If block runs. != we use only for integers, but for other data types we use !">
+      <created>1679950507945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679950507945</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,6 +136,7 @@
     <MESSAGE value="I created new Plane class and added new variables engineType, numberOfWings. I added toString method in order to change the car to plane in the output." />
     <MESSAGE value="I created new Boat class and added new variables name, length. I added toString method in order to change the car to boat in the output." />
     <MESSAGE value="I added addBoat method in the VehicleApp class. I ran the code and everything worked worked smooth." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added addBoat method in the VehicleApp class. I ran the code and everything worked worked smooth." />
+    <MESSAGE value="If flag is false, If body runs. If we use ! mark before the variable, the value of it going to be that we initialise. If flag is true, this code runs. If flag1 is false, If block runs. != we use only for integers, but for other data types we use !" />
+    <option name="LAST_COMMIT_MESSAGE" value="If flag is false, If body runs. If we use ! mark before the variable, the value of it going to be that we initialise. If flag is true, this code runs. If flag1 is false, If block runs. != we use only for integers, but for other data types we use !" />
   </component>
 </project>
