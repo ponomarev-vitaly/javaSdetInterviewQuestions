@@ -1,9 +1,22 @@
 public class Vehicle {
+
+    private String VIN;
     private String brand;
     private String model;
     private int numOfWheels;
     private int numOfPassengers;
     private String color;
+
+    public String getVIN() {
+        return VIN;
+    }
+
+    public void setVIN(String VIN) {
+        this.VIN = VIN;
+    }
+    /*
+    It should not be changed as it is a unique value.
+     */
 
     public String getBrand() {
         return brand;
@@ -45,11 +58,13 @@ public class Vehicle {
         this.color = color;
     }
 
-    public Vehicle(String brand, String model, int NOW, int NOP, String color){
+    public Vehicle(String VIN, String brand, String model,
+                   int numOfWheels, int numOfPassengers, String color) {
+        this.VIN = VIN;
         this.brand = brand;
         this.model = model;
-        this.numOfWheels = NOW;
-        this.numOfPassengers = NOP;
+        this.numOfWheels = numOfWheels;
+        this.numOfPassengers = numOfPassengers;
         this.color = color;
     }
 
@@ -59,6 +74,6 @@ public class Vehicle {
 
     public String toString(){
         return brand + " " + model + " ( " + color + " ) has " +
-                numOfPassengers + " passenger capacity. It has " + numOfWheels + " wheels.";
+                numOfPassengers + " passenger capacity. It has " + numOfWheels + " wheels.  It's VIN number is  " +VIN + ".";
     }
 }
