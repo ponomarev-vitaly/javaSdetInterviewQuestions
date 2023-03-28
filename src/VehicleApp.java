@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class VehicleApp {
     static Scanner scan = new Scanner(System.in);
     static List  < Vehicle >  vehicles = new ArrayList<>();
-
-
+    // We create static object from VehicleService class. Now we can reach it where we need this object.
+    static VehicleService object = new VehicleService(); // We use object to reach up getVehicleByType method, because it's public, not static.
 
     // The name of the constructor in this line is after equals sign.
 
@@ -17,7 +17,7 @@ public class VehicleApp {
     }
 
     public static void main(String[] args) {
-        VehicleService.mainMenu();
+        mainMenu();
 
         // scan.next(); // To call the Scanner object class from the main method there's another option: create an object, call the method.
         int option = -1;
@@ -33,6 +33,9 @@ public class VehicleApp {
                     break;
                 case 5:
                     listAll();
+                    break;
+                case 6:
+                    object.getVehicleByType();
                     break;
                 case 8:
                     removeVehicle();
@@ -137,20 +140,5 @@ public class VehicleApp {
                 vehicles.remove(i);
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
