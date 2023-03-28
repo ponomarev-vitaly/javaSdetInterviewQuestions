@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class VehicleService {
+public class VehicleService extends VehicleAbstractClass{
 
     static Scanner input = new Scanner(System.in);
     static String vehicleType;
@@ -19,7 +19,8 @@ public class VehicleService {
     public static final String Y = "\u001B[33m";
     public static final String B = "\u001B[34m";
 
-    public static void mainMenu() {
+    @Override
+    public void mainMenu() {
         System.out.println(R + "**********************************    " + Y + " \nVEHICLE ADMINISTRATION PANEL\n" + G + "**********************************");
         System.out.println(B + "1- CAR operations\n2- Truck operations\n" +
                 "3- Plain operations\n4- Boat operations\nQ- exit ");
@@ -56,10 +57,10 @@ public class VehicleService {
 
 
     }
-
-    private static void crudMenu() {
+    @Override
+    public void crudMenu() {
         System.out.println("Vehicle type of your choice: " + vehicleType + ", Please choose from the operations below.\n"
-                + R + "*********** " + vehicleType + " operations ************\n" + B + " 1-create\n 2-read\n 3-update\n 4-delete\n 0-main manu");
+                + R + "*********** " + vehicleType + " operations ************\n" + B + " 1-create\n 2-read\n 3-update\n 4-delete\n 5-list by type\n 0-main manu");
         System.out.print(B + "Your operation Preference : ");
 
         System.out.print("enter your preference : ");
@@ -79,7 +80,11 @@ public class VehicleService {
                 mainMenu();
                 break;
             case 4:
-               deleteVehicle();
+                deleteVehicle();
+                mainMenu();
+                break;
+            case 5:
+                getVehicleByType();
                 mainMenu();
                 break;
             case 0:
@@ -96,8 +101,8 @@ public class VehicleService {
         }
 
     }
-
-    private static void deleteVehicle() {
+    @Override
+    public void deleteVehicle() {
         System.out.println(R+"   ***   " + vehicleType + " delete page   ***"+B);
         boolean flag = true; //created to know if there is data to delete
 
@@ -132,6 +137,25 @@ public class VehicleService {
 
         }
 
+
+    }
+
+    @Override
+    void getVehicleByType() {
+        // Solution 1.
+        if(vehicleType.equals("CAR")){
+            for (Vehicle w: carList
+            ) {
+                System.out.println(w);
+            }
+        }
+        // Solution 2.
+//        System.out.println("List of all vehicles: ");
+//        VehicleApp.listAll();
+    }
+
+    @Override
+    void getVehicleByBrand() {
 
     }
 
