@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9922565b-4b8e-4bab-92de-a80d67d577b4" name="Changes" comment="added vehicle service" />
+    <list default="true" id="9922565b-4b8e-4bab-92de-a80d67d577b4" name="Changes" comment="added istqb and interview questions">
+      <change afterPath="$PROJECT_DIR$/src/exams/2023-04-05 00_49_30-Epic Pen Toolbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/2023-04-06 22_02_06-Zoom Meeting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/2023-04-06 23_00_40-Zoom Meeting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/500-ISTQB-Sample-Papers_Answers_istqb.guru.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exams/InterviewQuestions35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +57,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="zafer" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -36,13 +80,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Java/Vehicle Application&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/pc/IdeaProjects/VehicleApplication/src/exams"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -60,6 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VehicleApp" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.VehicleApp" />
       </list>
@@ -97,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added vehicle service" />
-    <option name="LAST_COMMIT_MESSAGE" value="added vehicle service" />
+    <MESSAGE value="added istqb and interview questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added istqb and interview questions" />
   </component>
 </project>
