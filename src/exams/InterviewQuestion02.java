@@ -28,5 +28,4 @@ public class InterviewQuestion02 {
 		System.out.println("After swapping: " + n1 + " - " + n2);
 
 	}
-
 }
