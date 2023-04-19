@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Vehicle Application.iml" filepath="$PROJECT_DIR$/Vehicle Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_SDET_InterviewQuestions.iml" filepath="$PROJECT_DIR$/JAVA_SDET_InterviewQuestions.iml" />
     </modules>
   </component>
 </project>

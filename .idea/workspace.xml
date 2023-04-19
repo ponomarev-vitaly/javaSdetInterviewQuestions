@@ -62,7 +62,7 @@
   <component name="RunManager" selected="Application.InterviewQuestion04">
     <configuration name="InterviewQuestion01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exams.InterviewQuestion01" />
-      <module name="Vehicle Application" />
+      <module name="JAVA_SDET_InterviewQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exams.*" />
@@ -75,7 +75,7 @@
     </configuration>
     <configuration name="InterviewQuestion02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exams.InterviewQuestion02" />
-      <module name="Vehicle Application" />
+      <module name="JAVA_SDET_InterviewQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exams.*" />
@@ -88,7 +88,7 @@
     </configuration>
     <configuration name="InterviewQuestion04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exams.InterviewQuestion04" />
-      <module name="Vehicle Application" />
+      <module name="JAVA_SDET_InterviewQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exams.*" />
@@ -101,7 +101,7 @@
     </configuration>
     <configuration name="InterviewQuestion20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exams.InterviewQuestion20" />
-      <module name="Vehicle Application" />
+      <module name="JAVA_SDET_InterviewQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exams.*" />
@@ -114,13 +114,26 @@
     </configuration>
     <configuration name="InterviewQuestion36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exams.InterviewQuestion36" />
-      <module name="Vehicle Application" />
+      <module name="JAVA_SDET_InterviewQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JAVA_SDET_InterviewQuestions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JAVA_SDET_InterviewQuestions" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
