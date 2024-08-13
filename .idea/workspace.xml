@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9922565b-4b8e-4bab-92de-a80d67d577b4" name="Changes" comment="I added new class InterviewQuestion36 to draw triangle from asterisks. I added solutions for InterviewQuestion1, 2.">
+    <list default="true" id="9922565b-4b8e-4bab-92de-a80d67d577b4" name="Changes" comment="I refreshed the project.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023_23_08__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IfStatementPractice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Truck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VehicleAbstractClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VehicleApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VehicleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exams/InterviewQuestion04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exams/InterviewQuestion04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +36,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2NQpWwRFPM7PdmfDFqOwu5osRyj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,13 +51,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Java/Vehicle Application&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.InterviewQuestion04">
     <configuration name="InterviewQuestion01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exams.InterviewQuestion01" />
-      <module name="JAVA_SDET_InterviewQuestions" />
+      <module name="JAVASDETInterviewQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exams.*" />
@@ -75,7 +71,7 @@
     </configuration>
     <configuration name="InterviewQuestion02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exams.InterviewQuestion02" />
-      <module name="JAVA_SDET_InterviewQuestions" />
+      <module name="JAVASDETInterviewQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exams.*" />
@@ -88,7 +84,7 @@
     </configuration>
     <configuration name="InterviewQuestion04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exams.InterviewQuestion04" />
-      <module name="JAVA_SDET_InterviewQuestions" />
+      <module name="JAVASDETInterviewQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exams.*" />
@@ -101,7 +97,7 @@
     </configuration>
     <configuration name="InterviewQuestion20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exams.InterviewQuestion20" />
-      <module name="JAVA_SDET_InterviewQuestions" />
+      <module name="JAVASDETInterviewQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exams.*" />
@@ -114,7 +110,7 @@
     </configuration>
     <configuration name="InterviewQuestion36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exams.InterviewQuestion36" />
-      <module name="JAVA_SDET_InterviewQuestions" />
+      <module name="JAVASDETInterviewQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exams.*" />
@@ -127,9 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterviewQuestion04" />
         <item itemvalue="Application.InterviewQuestion36" />
         <item itemvalue="Application.InterviewQuestion20" />
+        <item itemvalue="Application.InterviewQuestion04" />
         <item itemvalue="Application.InterviewQuestion02" />
         <item itemvalue="Application.InterviewQuestion01" />
       </list>
@@ -221,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1681852510203</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="I refreshed the project.">
+      <option name="closed" value="true" />
+      <created>1691356900791</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691356900791</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -234,6 +238,7 @@
     <MESSAGE value="I added if statement to check whether VIN number is in the database." />
     <MESSAGE value="No changes were made." />
     <MESSAGE value="I added new class InterviewQuestion36 to draw triangle from asterisks. I added solutions for InterviewQuestion1, 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added new class InterviewQuestion36 to draw triangle from asterisks. I added solutions for InterviewQuestion1, 2." />
+    <MESSAGE value="I refreshed the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="I refreshed the project." />
   </component>
 </project>
